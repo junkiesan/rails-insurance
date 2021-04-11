@@ -18,6 +18,9 @@ gem 'puma', '~> 4.1'
 # Authentification
 gem 'devise'
 
+# Admin role
+gem 'activeadmin', github: 'activeadmin/activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
